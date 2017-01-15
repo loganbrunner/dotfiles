@@ -1,0 +1,15 @@
+vim/bundle/*
+!vim/bundle/Vundle.vim
+vim/backup/*
+vim/config/*
+vim/non_used/*
+vim/swap/*
+vim/undo/*
+vim/tags/*
+vim/.netrwhist
+vim/.VimballRecord
+*.swp
+*.out
+*.log
+*.pyc
+*~

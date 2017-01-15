@@ -26,7 +26,7 @@ set scrolloff=1 " Start scrolling three lines before the horizontal window borde
 set nowrap " Don't wrap lines, just display as one long line.
 set lazyredraw " Redraw lazily (go figure)
 set list " Show whitespace characters
-set listchars=tab:▸\,trail:·,nbsp:_ " Representation of whitespace chars
+set listchars=tab:▸\ ,trail:·,nbsp:_ " Representation of whitespace chars
 set number " Display line numbers
 
 "" multiple windows
@@ -117,7 +117,7 @@ set modeline " For vim modelines
 set fileformats=unix,mac,dos " End of line formats to try
 set backup " Create backup when writing over a file
 set backupdir=~/.vim/backup
-set directory=~/.vim/swaps
+set directory=~/.vim/swap
 if has("persistent_undo")
   set undofile
   set undodir=~/.vim/undo
