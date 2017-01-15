@@ -38,7 +38,7 @@ You can make local customizations for some programs by editing these files:
 * `vim` : `~/.vimrc_local`
 
 ## License
-Copyright (c) 2016 Tyler Cloutier. Released under the MIT License. See
+Copyright (c) 2017 Tyler Cloutier. Released under the MIT License. See
 [LICENSE][license] for details.
 
 [license]: LICENSE
