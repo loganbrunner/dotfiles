@@ -1,0 +1,23 @@
+- clean: ['~']
+
+- link:
+    # Advanced format:
+    # ~/.foo:
+    #     path: foo
+    #     create: false
+    #     relink: false
+    #     force: false
+
+    ~/.vim: vim/
+    ~/.vimrc: vimrc
+
+- shell:
+    - [git submodule update --init --remote, Updating submodules]
+    #- command: ./macos.sh
+    #  stdin: true
+    #  stdout: true
+    #  stderr: true
+    - command: vim +PluginInstall +qall
+      stdin: true
+      stdout: true
+      stderr: true
