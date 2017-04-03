@@ -75,6 +75,8 @@ autocmd Filetype sql setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 autocmd Filetype json setlocal ts=2 sw=2 expandtab
 autocmd Filetype typescript setlocal ts=2 sw=2 expandtab
+autocmd Filetype sass setlocal ts=2 sw=2 expandtab
+autocmd Filetype scss setlocal ts=2 sw=2 expandtab
 autocmd BufRead,BufNewFile *.erb setlocal ts=2 sw=2 expandtab
 
 " in HTML, don't have a textwidth because it auto-wraps and is annoying
