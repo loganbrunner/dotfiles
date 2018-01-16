@@ -22,3 +22,7 @@
       stdin: true
       stdout: true
       stderr: true
+    - command: ~/.vim/bundle/YouCompleteMe/install.py --clang-completer
+      stdin: true
+      stdout: true
+      stderr: true
