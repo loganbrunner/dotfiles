@@ -85,6 +85,13 @@ Plugin 'flazz/vim-colorschemes'
 " GraphQL
 Plugin 'jparise/vim-graphql'
 
+" Pug template engine
+Plugin 'dNitro/vim-pug-complete'
+Plugin 'digitaltoad/vim-pug'
+
+" Syntax for Solidity
+Plugin 'tomlion/vim-solidity'
+
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*

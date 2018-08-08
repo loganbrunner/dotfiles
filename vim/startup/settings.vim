@@ -80,6 +80,7 @@ autocmd Filetype go setlocal noet ts=4 sw=4 sts=4
 autocmd Filetype typescript setlocal ts=2 sw=2 expandtab
 autocmd Filetype sass setlocal ts=2 sw=2 expandtab
 autocmd Filetype scss setlocal ts=2 sw=2 expandtab
+autocmd Filetype pug setlocal ts=2 sw=2 expandtab
 autocmd BufRead,BufNewFile *.erb setlocal ts=2 sw=2 expandtab
 
 " in HTML, don't have a textwidth because it auto-wraps and is annoying
